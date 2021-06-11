@@ -1,0 +1,115 @@
+﻿<Page
+    x:Class="TravelGuideAppProject.HararWall_Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TravelGuideAppProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <ScrollViewer>
+
+        <Grid>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Button 
+                x:Name="BackButton" Click="BackButton_Click"
+                Style="{StaticResource NavigationBackButtonNormalStyle}"
+                IsEnabled="{x:Bind Frame.CanGoBack, Mode=OneWay}" 
+                ToolTipService.ToolTip="Back"
+                VerticalAlignment="Top"
+                FontSize="26" 
+                FontWeight="ExtraBold"
+                Foreground="Blue"/>
+
+
+            <TextBlock
+            Margin="10"
+            TextDecorations="Underline"
+            Grid.Row="1"
+            Text="General Information"
+            Foreground="DarkCyan"
+            FontSize="26"
+            FontWeight="ExtraBold"
+            TextWrapping="Wrap">
+            </TextBlock>
+
+
+            <TextBlock
+            Grid.Row="2"
+            Text="It's easy to feel lost, both geographically and in time, when you're in eastern Ethiopia's Unesco World Heritage-listed Harar. The ancient walled city, scattered over hundreds of narrow alleyways clustered together like a maze, has plenty of old-world charm. Wherever you look, there's a noteworthy feature: traditional Harari houses, 16th-century gates, watchtowers, and uniquely constructed mosques and shrines. Harar continues to bear the significant handprint of the trade that once flourished here, from India, the ­Middle East and the rest of Africa. You could choose to spend all your time in one of the several local museums, admiring coins and artefacts that ­illustrate how the arts and mercantile trade thrived in the town. But the streets of Harar's old town are where you'll witness a distinctive ethnic identity, language and culture that serve as a living museum. Little wonder, then, that British orientalist Sir Richard Burton was one of Harar's distinguished visitors.
+
+Taking you even further off the straight-and-narrow and down a path of intrigue is the relationship that the town has long shared with hyenas. Most evenings at dusk, around the outskirts of the city, you can witness the human-­hyena ­interaction that Harar is ­famous for. The much-­maligned beasts approach the 'hyena men' from out of the dark, in small packs of three or four, in response to what clearly is a familiar call. The creatures behave playfully as they're fed – and under the supervision of the experts, you can also get involved, by proffering a meat stick. Wonderland Hotel offers a clean and cheerful stay in the heart of town. Don't expect frills of any sort in Harar, or any kind of superlative service, and you'll be satisfied. Prices start from Dh100 per night.
+
+What the accommodation at Rawda Waber Harar Cultural Guesthouse lacks in space and attached bathrooms, it makes up for in atmosphere. Think of a traditional Adare house, rooms strewn with rugs, walls adorned with baskets and bowls, wrapped around a courtyard. It offers a snapshot of Harari cultural identity. Costs start from Dh50 per night. Accommodation is best booked through a local agent. Having a car at your disposal helps when you want to explore the outskirts of Harar, but, for the most part, you're best off discovering the city on foot. The old walled city with its ancient gates and markets is endlessly fascinating, and you could spend all day just walking around. Punctuate your explorations, however, with visits to some museums. The Arthur Rimbaud Centre was built by an Indian merchant, on the site where the French poet once lived, and is a haven of historical photos, wall and roof paintings, snippets from Rimbaud's literature and interesting city views. Nearby, Ras Tafari's House and Sherif Harar City Museum walks you through history, with its collection of weapons, traditional dress and household items. The copper and bronze coins on display are particularly significant, because the town used to mint its own money.
+
+Further afield, the Harar Community Centre Museum, built to resemble a traditional home and constructed using porous stone and mud (so it is always cool), introduces you to local identity through architecture. For instance, each section of the floor is raised to a different height, and families take a seat according to age and hierarchy. The niches in the walls serve as shelves for various possessions, books and traditional handicrafts. Baskets and pots typically adorn the walls – often making you feel like you've walked into a shop, rather than a humble residence. The Enay Abida Crafts Centre was created to produce and sell crafts, but also serves as a training centre. You'll run into locals involved in making baskets, ornaments, wooden household items and an assortment of jewellery. Ask about the social and ­decorative importance of what they produce – for the Harari people have long been known for the quality of their crafts.
+
+Another good way to interact with the locals is to embark on a walk along the town's market streets, each defined by the goods sold there. The Gidir Market or Big Market – at which different ethnic groups gather to sell firewood, ­vegetables and meat – is a case in point."
+            FontWeight="Light"
+            FontSize="14"
+            TextWrapping="Wrap"
+            TextAlignment="Justify"
+            Margin="20,10,20,20"/>
+            <TextBlock
+            Margin="10"
+            Grid.Row="3"
+            Text="Travel Agency"
+            TextDecorations="Underline"
+            Foreground="DarkCyan"
+            FontWeight="ExtraBold"
+            FontSize="26"/>
+            <TextBlock Grid.Row="4" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/233028830204000/Mulu-Ethiopian-Tour-%26Travel">Go to Mulu Ethiopian Tour and Travel</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="5" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/498962313486958/Lalibela-Eco-Trekking-Tours--Ethiopia">Go to Lalibela Eco Trekking Tours -Ethiopia</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="6" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/253378635003685/Hab-Ethiopia--Tours">Go to Hab Ethiopia Tours</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="7" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/1610396562547843/Explore-Lalibela">Go to Explore Lalibela</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="8" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/1642837215945174/Cultural-trekking-Lalibela">Go to Cultural trekking Lalibela</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="9" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/478567415650489/Loza-Ethiopia-Tour-Service">Go to Loza Ethiopia Tour Service</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="10" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/165807104158039/Lalibela-Roha-Tour-and-Travel">Go to Lalibela Roha Tour and Travel</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="11" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/880713591977536/Ethiopian-landscape-tour">Go to Ethiopian landscape tour</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="12" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/150677395560414/Zagol-Ethiopia-Tours">Go to Zagol Ethiopia Tours</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="13" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/733115336834112/Always-Ethiopia-Tours">Go to Always Ethiopia Tours</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="14" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/1072197126259858/Budget-Ethiopia-Tour-And-Travel">Go to Budget Ethiopia Tour And Travel</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="15" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/219915845024349/Bird-watching-in-lalibela">Go to Bird watching in lalibela</Hyperlink></TextBlock>
+            <TextBlock
+            Grid.Row="16"
+            Margin="10"
+            Foreground="DarkCyan"
+            Text="Accomodation"
+                TextDecorations="Underline"
+            FontWeight="ExtraBold"
+            FontSize="26"/>
+            <TextBlock Grid.Row="17" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.rohahotel.com/">ROHA HOTEL</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="18" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.toptwelvehotel.com/">TOP TWELVE HOTEL</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="20" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://harbehotel.com/">HARBE HOTEL</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="21" Margin="20,0,0,0" ><Hyperlink NavigateUri="http://www.hallehotellalibela.com/">HALLE HOTEL LALIBELA</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="22" Margin="20,0,0,0" ><Hyperlink NavigateUri="http://www.hotelmaribela.com/">MARIBELLA HOTEL</Hyperlink></TextBlock>
+        </Grid>
+    </ScrollViewer>
+</Page>

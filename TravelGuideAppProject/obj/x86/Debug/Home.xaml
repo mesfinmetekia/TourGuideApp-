@@ -1,0 +1,84 @@
+﻿<Page
+    x:Class="TravelGuideAppProject.Home"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TravelGuideAppProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="Black">
+
+    <Grid>
+        <Image Source="Assets/flag.png" Opacity="0.3" Stretch="UniformToFill"></Image>
+        
+        <ScrollViewer
+            HorizontalScrollBarVisibility="Auto"
+            VerticalScrollBarVisibility="Auto">
+            <StackPanel >
+                <TextBlock FontStretch="UltraExpanded" FontSize="80" Foreground="Yellow" FontWeight="ExtraBold" TextAlignment="Center" >ETHIOPIAN TOURIST ATTRACTIONS</TextBlock>
+                <!--lalibela-->
+                <Button x:ConnectionId='2' HorizontalAlignment="Center" x:Name="lalibela"                       >
+                    <Image Source="Assets/lalibela.png" Height="500" Stretch="None" />  
+                </Button>
+                <TextBlock Foreground="White" FontSize="22" Margin="-86,0,0,0" HorizontalAlignment="Center">Lalibela - The rock-hewn churches of Lalibela are chiselled out of rock</TextBlock>
+                <!--Axum-->
+                <Button x:ConnectionId='3' HorizontalAlignment="Center" x:Name="axum"                   >
+                    <Image Source="Assets/axum.png" Height="500" Width="750" Stretch="None" />
+                </Button>
+                <TextBlock Foreground="White" FontSize="22" Margin="-50,0,0,0" HorizontalAlignment="Center">Axum - Powerful kingdom in northern Ethiopia during  early Christian era.</TextBlock>
+                <!--Gondar-->
+                <Button x:ConnectionId='4' HorizontalAlignment="Center" x:Name="gondar"                     >
+                    <Image Source="Assets/gondar-castle.png" Height="500"  Stretch="None" />
+                </Button>
+                <TextBlock Foreground="White" FontSize="22" Margin="-166,0,0,0" HorizontalAlignment="Center">Gondar - Fasilides' castle in Gonder, North Western Ethiopia</TextBlock>
+                <!--Debre Damo-->
+                <Button x:ConnectionId='5' HorizontalAlignment="Center" x:Name="debredamo"                        >
+                    <Image Source="Assets/debre-damo.png" Height="500" Stretch="None" />
+                </Button>
+                <TextBlock Foreground="White" FontSize="22" Margin="-206,0,0,0" HorizontalAlignment="Center">The Monastery of Debre Damo, Adigrat, North Ethiopia</TextBlock>
+                <!--Simien mountain-->
+                <Button x:ConnectionId='6' HorizontalAlignment="Center" x:Name="simien"                             >
+                    <Image Source="Assets/simien-mountains.png" Height="500" Stretch="None" />
+                </Button>
+                <TextBlock Foreground="White" FontSize="22" Margin="-26,0,0,0" HorizontalAlignment="Center">The Simien Mountains National Park Northern Ethiopia breath-taking views</TextBlock>
+                <!--Blue Nile Falls-->
+                <Button x:ConnectionId='7' HorizontalAlignment="Center" x:Name="bluenile"                       >
+                    <Image Source="Assets/blue-nile-fall.png" Height="500" Stretch="None" />
+                </Button>
+                <TextBlock Foreground="White" FontSize="22" Margin="-116,0,0,0" HorizontalAlignment="Center">The Blue Nile Falls also known as Tis Abay, meaning ‘great smoke’</TextBlock>
+                <!--Bale Mountain-->
+                <Button x:ConnectionId='8' HorizontalAlignment="Center" x:Name="btn7"                           >
+                    <Image Source="Assets/bale-mountain.png" Height="500" Stretch="None" />
+                </Button>
+                <TextBlock Foreground="White" FontSize="22" Margin="-56,0,0,0" HorizontalAlignment="Center">Bale Mountains National Park contains a spectacularly diverse landscape</TextBlock>
+                <!--Danakil's Depression-->
+                <Button x:ConnectionId='9' HorizontalAlignment="Center" x:Name="danakildepression"                                >
+                    <Image Source="Assets/danakil-depression.png" Height="500" Stretch="None" />
+                </Button>
+                <TextBlock Foreground="White" FontSize="22" Margin="-165,0,0,0" HorizontalAlignment="Center">Danakil Depression - Alien world is the hottest place on Earth</TextBlock>
+                <!--Harrar Wall-->
+                <Button x:ConnectionId='10' HorizontalAlignment="Center" x:Name="hararwall"                        >
+                    <Image Source="Assets/harar-wall.png" Height="500" Stretch="None" />
+                </Button>
+                <TextBlock Foreground="White" FontSize="22" Margin="-116,0,0,0" HorizontalAlignment="Center">Harar Walled City - Harar, Ethiopia is an ancient city like no other</TextBlock>
+                <!--Nech Sar Park-->
+                <Button x:ConnectionId='11' HorizontalAlignment="Center" x:Name="nechsar"                      >
+                    <Image Source="Assets/nech-sar.png" Height="500" Stretch="None" />
+                </Button>
+                <TextBlock Foreground="White" FontSize="22" Margin="-186,0,0,0" HorizontalAlignment="Center">Nechisar National Park most scenic, Arba Minch, Ethiopia</TextBlock>
+                <TextBlock Foreground="Yellow" Margin="0,150,0,0"  FontSize="18" HorizontalAlignment="Center"> © 2021 Mesfin.Metekia@triosstudent.com</TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+      
+
+
+    </Grid>
+
+
+    
+
+    
+       
+   
+</Page>
+

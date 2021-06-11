@@ -1,0 +1,111 @@
+﻿<Page
+    x:Class="TravelGuideAppProject.Axum_Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TravelGuideAppProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="LightSkyBlue">
+
+    <ScrollViewer>
+
+        <Grid>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Button 
+                x:Name="BackButton" Click="BackButton_Click"
+                Style="{StaticResource NavigationBackButtonNormalStyle}"
+                IsEnabled="{x:Bind Frame.CanGoBack, Mode=OneWay}" 
+                ToolTipService.ToolTip="Back"
+                VerticalAlignment="Top"
+                FontSize="26" 
+                FontWeight="ExtraBold"
+                Foreground="Blue"/>
+
+
+            <TextBlock
+            Margin="10"
+            TextDecorations="Underline"
+            Grid.Row="1"
+            Text="General Information"
+            Foreground="DarkCyan"
+            FontSize="26"
+            FontWeight="ExtraBold"
+            TextWrapping="Wrap">
+            </TextBlock>
+
+
+            <TextBlock
+            Grid.Row="2"
+            Text="Aksum, also spelled Axum, powerful kingdom in northern Ethiopia during the early Christian era. Despite common belief to the contrary, Aksum did not originate from one of the Semitic Sabaean kingdoms of southern Arabia but instead developed as a local power. At its apogee (3rd–6th century CE), Aksum became the greatest market of northeastern Africa; its merchants traded as far as Alexandria and beyond the Nile River. Aksum continued to dominate the Red Sea coast until the end of the 9th century, exercising its influence from the shores of the Gulf of Aden to Zeila on the northern coast of Somaliland (modern Somalia and Djibouti).
+
+                  During the 2nd and 3rd centuries CE its growth as a trading empire increasingly impinged on the power of the kingdom of Meroe, the fall of which was brought about in the 4th century by an Aksumite invasion. During the 4th century the kings of Aksum were Christianized—thus becoming both politically and religiously linked to Byzantine Egypt. At the same time, they extended their authority into southern Arabia. In the 6th century an Aksumite king reduced the Yemen to a state of vassalage. In the latter part of the 6th century, however, the Persians invaded South Arabia and brought Aksumite influence there to a close. Later the Mediterranean trade of Aksum was ended by the encroachment of the Arabs in the 7th and 8th centuries. Gradually, Aksumite power shifted internally to the Agau (Agaw, or Agew) people, whose princes shaped a new Christian line in the Zagwe dynasty of the 12th–13th century. Tigray contains the core of the ancient Aksumite kingdom and the historic settlements of Aksum, the kingdom's capital; Yeha, a ruined town of great antiquity; and Adwa, the site of a battle in 1896 in which the Italian invading force was defeated.
+
+                  Although vegetation is sparse, most of Tigray's population is engaged in agriculture (cereals, legumes, coffee, and cotton) and stock raising. Hides and skins are important exports. Salt and potash from desert deposits are also exported. The region, which has long been home to the Tigray people, also supports the Raya, Azebo, Afar, and Agau (Agaw, or Agew) peoples. By controlling the Red Sea ports of Massawa (Mitsiwa) and Asseb, Tigray became the region through which trading caravans reached the seat of the empire to the south. After it lost the coast to the Ottoman Empire in the 16th century, the region lost status, and thereafter, with the brief exception of Yohannes IV (reigned 1872–89), its princes were dominated by the rulers of the Gonder and Shewa regions to the south. It was also under constant threat from Egyptian, Sudanese, British, and Italian armies trying to penetrate to the interior. After occupation by Italy (1935–41), it was governed by officials appointed from the national capital in Addis Ababa."
+            FontWeight="Light"
+            FontSize="14"
+            TextWrapping="Wrap"
+            TextAlignment="Justify"
+            Margin="20,10,20,20"/>
+            <TextBlock
+            Margin="10"
+            Grid.Row="3"
+            Text="Travel Agency"
+            TextDecorations="Underline"
+            Foreground="DarkCyan"
+            FontWeight="ExtraBold"
+            FontSize="26"/>
+            <TextBlock Grid.Row="4" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/233028830204000/Mulu-Ethiopian-Tour-%26Travel">Go to Mulu Ethiopian Tour and Travel</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="5" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/498962313486958/Lalibela-Eco-Trekking-Tours--Ethiopia">Go to Lalibela Eco Trekking Tours -Ethiopia</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="6" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/253378635003685/Hab-Ethiopia--Tours">Go to Hab Ethiopia Tours</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="7" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/1610396562547843/Explore-Lalibela">Go to Explore Lalibela</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="8" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/1642837215945174/Cultural-trekking-Lalibela">Go to Cultural trekking Lalibela</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="9" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/478567415650489/Loza-Ethiopia-Tour-Service">Go to Loza Ethiopia Tour Service</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="10" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/165807104158039/Lalibela-Roha-Tour-and-Travel">Go to Lalibela Roha Tour and Travel</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="11" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/880713591977536/Ethiopian-landscape-tour">Go to Ethiopian landscape tour</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="12" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/150677395560414/Zagol-Ethiopia-Tours">Go to Zagol Ethiopia Tours</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="13" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/733115336834112/Always-Ethiopia-Tours">Go to Always Ethiopia Tours</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="14" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/1072197126259858/Budget-Ethiopia-Tour-And-Travel">Go to Budget Ethiopia Tour And Travel</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="15" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/219915845024349/Bird-watching-in-lalibela">Go to Bird watching in lalibela</Hyperlink></TextBlock>
+            <TextBlock
+            Grid.Row="16"
+            Margin="10"
+            Foreground="DarkCyan"
+            Text="Accomodation"
+                TextDecorations="Underline"
+            FontWeight="ExtraBold"
+            FontSize="26"/>
+            <TextBlock Grid.Row="17" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.rohahotel.com/">ROHA HOTEL</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="18" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.toptwelvehotel.com/">TOP TWELVE HOTEL</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="20" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://harbehotel.com/">HARBE HOTEL</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="21" Margin="20,0,0,0" ><Hyperlink NavigateUri="http://www.hallehotellalibela.com/">HALLE HOTEL LALIBELA</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="22" Margin="20,0,0,0" ><Hyperlink NavigateUri="http://www.hotelmaribela.com/">MARIBELLA HOTEL</Hyperlink></TextBlock>
+        </Grid>
+    </ScrollViewer>
+</Page>

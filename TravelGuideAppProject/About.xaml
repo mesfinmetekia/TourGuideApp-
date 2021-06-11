@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="TravelGuideAppProject.About"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TravelGuideAppProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" 
+    Background="Black">
+
+    <Grid>
+        <Image Source="Assets/myBackground.png" Opacity="0.6" Stretch="UniformToFill"></Image>
+        <TextBlock FontSize="60" FontWeight="bold" Margin="30,30,30,30" Foreground="Yellow">About Travel Guide App</TextBlock>
+        <TextBlock FontSize="22" TextWrapping="Wrap" Margin="30,150,30,30" TextAlignment="Justify" Foreground="yellow">Travel Guide is the new multifunctional travel platform, based on short-form video content and innovative booking system, which gives users the real possibility to earn income by creating trendy content. This is the right place for mobile videos, as well as for professional clips.
+As a new social media for adventurous people, we make it easy for trip planners to visually perceive destinations from around the world. Apart from that, we make the booking process smooth - you get personalized offers regarding everything one might need to plan a perfect trip: from booking hotels to getting location-based offers.
+
+● Add Videos, Choose the perfect audio for free and show everyone what you’re round and about.
+● Explore Special places and experiences demonstrated through other people’s lenses. Make your day exciting by scrolling through the inspiring video feed to get a look into what’s awaiting you in other parts of the world.
+● Get offers from the videos you engage with: learn about interesting sights, buy special tours, hire local guides, rent cars, book hotels, restaurants, tickets. Just Go, It’s all you got to do!
+● Make our platform your easy source of income by connecting Service Sellers from particular destinations to potential customers through your content. When a customer purchases service after getting interested in a place through your short video, then you get a commission for being an influencer.</TextBlock>
+
+        <TextBlock Foreground="Yellow" Margin="0,900,0,0"  FontSize="18" HorizontalAlignment="Center"> © 2021 Mesfin.Metekia@triosstudent.com</TextBlock>
+    </Grid>
+</Page>

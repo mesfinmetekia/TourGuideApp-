@@ -1,0 +1,117 @@
+﻿<Page
+    x:Class="TravelGuideAppProject.DanakilDepression_Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TravelGuideAppProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <ScrollViewer>
+
+        <Grid>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Button 
+                x:Name="BackButton" Click="BackButton_Click"
+                Style="{StaticResource NavigationBackButtonNormalStyle}"
+                IsEnabled="{x:Bind Frame.CanGoBack, Mode=OneWay}" 
+                ToolTipService.ToolTip="Back"
+                VerticalAlignment="Top"
+                FontSize="26" 
+                FontWeight="ExtraBold"
+                Foreground="Blue"/>
+
+
+            <TextBlock
+            Margin="10"
+            TextDecorations="Underline"
+            Grid.Row="1"
+            Text="General Information"
+            Foreground="DarkCyan"
+            FontSize="26"
+            FontWeight="ExtraBold"
+            TextWrapping="Wrap">
+            </TextBlock>
+
+
+            <TextBlock
+            Grid.Row="2"
+            Text="The area is located in the Afar Region of north-east Ethiopia near the border with Eritrea. The climate here can only be described as cruel. But against all odds, people do live here. The Afar people call it their home.Sunrise behind an Afar village (Credit: Vivien Cumming)
+               The Danakil Depression is a contender for the hottest place on Earth, at least if you measure the average year-round temperature (reportedly 34.4C) rather than focusing on isolated bursts of extreme heat.Worse, it only receives 100 to 200mm of rainfall per year and it is also one of the lowest places on the planet, at 410ft (125m) below sea level. Combined, these factors make it one of the most inhospitable environments in the world.
+                If the climate was not enough, the regions energetic geology makes it look like an alien land. It was the strange geological phenomena that I was there to see. Walking around the area you feel like you are on another planet. There are volcanoes with bubbling lava lakes, multi-coloured hydrothermal fields, and great salt pans that dazzle the eyes. The Danakil Depression is the northern part of the Afar Triangle, a geological depression caused by the Afar Triple Junction: a place where three tectonic plates join.
+
+The Depression overlaps the borders of Eritrea, Djibouti and the entire Afar Region of Ethiopia. It is part of the great East African Rift Valley. A rift valley is where the Earth's tectonic plates move apart, creating new crust. Here the plates are moving apart along three deep rifts at a rate of 1-2cm per year. This is why you see lava lakes lighting up the night sky, faults and fissures scarring the landscape, and steaming hot springs and geysers. One day millions of years into the future, the plates will have moved apart so much that the salty waters of the Red Sea will spill over, creating a new ocean and drowning this strange landscape forever. Then, the Danakil Depression will be the birthplace of a new ocean. In 1974, Donald Johanson and colleagues found the celebrated Australopithecus fossil known as 'Lucy' in the region. Many other fossils of ancient hominins have been uncovered here, prompting some palaeontologists to propose that this area is where our species first evolved. As a result, it is often referred to as the 'cradle of humanity'. The area is also used to investigate how life might evolve on other planets.
+
+The hot springs in the Danakil Depression are home to microorganisms called extremophiles, which as the name suggests live in extreme conditions. Microbes like this are of special interest to astrobiologists, as they could help to explain how extraterrestrial life could arise. Exploring this strange region means driving for hours on bumpy, dusty dirt roads, starting from a town called Mekele. You drive down through Ethiopia's highlands into this low-lying desert. 
+
+You would not think anyone could live here, but the Afar people have made it their home. While we sweltered in the hot sun longing for water, they looked remarkably cool and relaxed.
+
+This is evolution at work. Their bodies are adapted to the heat and dryness, so they need far less food and water than most other people.  "
+                FontWeight="Light" 
+            FontSize="14"
+            TextWrapping="Wrap"
+            TextAlignment="Justify"
+            Margin="20,10,20,20"/>
+            <TextBlock
+            Margin="10"
+            Grid.Row="3"
+            Text="Travel Agency"
+            TextDecorations="Underline"
+            Foreground="DarkCyan"
+            FontWeight="ExtraBold"
+            FontSize="26"/>
+            <TextBlock Grid.Row="4" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/233028830204000/Mulu-Ethiopian-Tour-%26Travel">Go to Mulu Ethiopian Tour and Travel</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="5" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/498962313486958/Lalibela-Eco-Trekking-Tours--Ethiopia">Go to Lalibela Eco Trekking Tours -Ethiopia</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="6" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/253378635003685/Hab-Ethiopia--Tours">Go to Hab Ethiopia Tours</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="7" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/1610396562547843/Explore-Lalibela">Go to Explore Lalibela</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="8" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/1642837215945174/Cultural-trekking-Lalibela">Go to Cultural trekking Lalibela</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="9" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/478567415650489/Loza-Ethiopia-Tour-Service">Go to Loza Ethiopia Tour Service</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="10" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/165807104158039/Lalibela-Roha-Tour-and-Travel">Go to Lalibela Roha Tour and Travel</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="11" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/880713591977536/Ethiopian-landscape-tour">Go to Ethiopian landscape tour</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="12" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/150677395560414/Zagol-Ethiopia-Tours">Go to Zagol Ethiopia Tours</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="13" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/733115336834112/Always-Ethiopia-Tours">Go to Always Ethiopia Tours</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="14" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/1072197126259858/Budget-Ethiopia-Tour-And-Travel">Go to Budget Ethiopia Tour And Travel</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="15" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.travelagenciesfinder.com/ET/Lalibela/219915845024349/Bird-watching-in-lalibela">Go to Bird watching in lalibela</Hyperlink></TextBlock>
+            <TextBlock
+            Grid.Row="16"
+            Margin="10"
+            Foreground="DarkCyan"
+            Text="Accomodation"
+                TextDecorations="Underline"
+            FontWeight="ExtraBold"
+            FontSize="26"/>
+            <TextBlock Grid.Row="17" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.rohahotel.com/">ROHA HOTEL</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="18" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://www.toptwelvehotel.com/">TOP TWELVE HOTEL</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="20" Margin="20,0,0,0" ><Hyperlink NavigateUri="https://harbehotel.com/">HARBE HOTEL</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="21" Margin="20,0,0,0" ><Hyperlink NavigateUri="http://www.hallehotellalibela.com/">HALLE HOTEL LALIBELA</Hyperlink></TextBlock>
+            <TextBlock Grid.Row="22" Margin="20,0,0,0" ><Hyperlink NavigateUri="http://www.hotelmaribela.com/">MARIBELLA HOTEL</Hyperlink></TextBlock>
+        </Grid>
+    </ScrollViewer>
+</Page>
